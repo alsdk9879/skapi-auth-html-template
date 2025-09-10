@@ -35,7 +35,7 @@ The application will be hosted on port `3300`
 
 ## Live Demo
 
-You can check our live demo [Here](https://skapi-auth-html-template.skapi.com/).
+You can check our live demo <a href="https://skapi-auth-html-template.skapi.com/" target="_blank">Here</a>.
 
 ## Important!
 
