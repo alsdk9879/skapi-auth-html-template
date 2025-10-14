@@ -21,51 +21,45 @@
 <script src="service.js"></script>
 
 <script>
-  /*
+    /*
         Check if the user is logged in.
         If the user is logged in, redirect the user to welcome page.
     */
-  skapi.getProfile().then((user) => {
-    if (user) {
-      location.href = 'welcome.html';
-    }
-  });
+    skapi.getProfile().then((user) => {
+        if (user) {
+            location.href = "welcome.html";
+        }
+    });
 </script>
 
 <style>
-  ul li {
-    margin-top: 4px;
-  }
+    ul li {
+        margin-top: 4px;
+    }
 </style>
 
 <main>
-  <h1>Skapi HTML Authentication Template</h1>
-  <p>This is a plain HTML template for Skapi's authentication features.</p>
-  <p>This template packs all the authentication features you can use in your HTML application:</p>
-  <ul>
-    <li>Signup</li>
-    <li>Signup email verification</li>
-    <li>Login</li>
-    <li>Forgot password</li>
-    <li>Change password</li>
-    <li>Update account profile</li>
-    <li>Remove account</li>
-    <li>Recover account</li>
-  </ul>
+    <h1>Skapi HTML Authentication Template</h1>
+    <p>This is a plain HTML template for Skapi's authentication features.</p>
+    <p>
+        This template packs all the authentication features you can use in your
+        HTML application:
+    </p>
+    <ul>
+        <li>Signup</li>
+        <li>Signup email verification</li>
+        <li>Login</li>
+        <li>Forgot password</li>
+        <li>Change password</li>
+        <li>Update account profile</li>
+        <li>Remove account</li>
+        <li>Recover account</li>
+    </ul>
 
-  <br />
+    <br />
 
-  <h2>Important!</h2>
-  <p>Replace the SERVICE_ID and OWNER_ID value to your own service in service.js.</p>
-  <p>
-    You can get your own service ID from
-    <a href="https://www.skapi.com" target="_blank">Skapi</a>.
-  </p>
-
-  <br />
-
-  <p style="font-weight: bold">Login or Sign-up below:</p>
-  <a href="login.html">Login</a>
-  |
-  <a href="signup.html">Sign-Up</a>
+    <p style="font-weight: bold">Login or Sign-up below:</p>
+    <a href="login.html">Login</a>
+    |
+    <a href="signup.html">Sign-Up</a>
 </main>
